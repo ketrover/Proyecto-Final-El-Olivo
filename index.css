@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+
+h1 {
+    margin: 0;
+}
+
+/* Navegación */
+
+nav {
+    padding: 10px;
+}
+
+.letra1 {
+    position: relative;
+    margin-left: 100px;
+    color: rgb(197, 118, 197);
+    font-family: xd;
+}
+
+@font-face {
+    font-family: xd;
+    src: url(./fuentes/reproduction-Medium.ttf);
+}
+
+
+.titulo {
+    font-family: xd;
+    font-size: 45px;
+    position: relative;
+    margin-left: 490px;
+    top: -20px;
+}
+
+.fondo2{
+    position: relative;
+    margin-left: 280px;
+    height: 430px;
+    top: -50px;
+
+}
+
+.letra1:hover {
+    background-color: #8d599b;
+    border-radius: 15px;
+    color: #f0f0f0;
+    transition-property: background, color;
+    transition-duration: 0.5s;
+}
+
+.letra1:active {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    position: relative;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+
+main {
+    position: relative;
+    margin: 20px;
+    border-radius: 50px;
+    top: 100px;
+    height: 500px;
+}
+
+
+.app-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-info h3 {
+    color: rgb(197, 118, 197);
+}
+
+.app-info p {
+    color: #050505;
+    font-family: Arial sans-serif;
+    font-size: 20px;
+    top: 200px;
+}   
