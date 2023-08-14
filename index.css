@@ -38,7 +38,7 @@ nav {
     font-size: 45px;
     position: relative;
     margin-left: 490px;
-    top: -20px;
+    top: -10px;
 }
 
 .fondo2{
@@ -58,7 +58,9 @@ nav {
 }
 
 .letra1:active {
-    color: black;
+    color: rgb(252, 209, 248);
+    border-radius: 15px;
+    background-color: rgb(199, 85, 189);
 }
 
 nav ul {
@@ -86,7 +88,7 @@ main {
     position: relative;
     margin: 20px;
     border-radius: 50px;
-    top: 100px;
+    top: 50px;
     height: 500px;
 }
 
@@ -103,8 +105,11 @@ main {
 }
 
 .app-info p {
-    color: #050505;
-    font-family: Arial sans-serif;
+    position: relative;
+    color: rgb(197, 118, 197);
+    font-family: xd;
+    margin-left: 375px;
     font-size: 20px;
-    top: 200px;
+    top: -40px;
+    
 }   
