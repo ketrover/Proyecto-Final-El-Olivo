@@ -1,11 +1,23 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+
 body {
+    position: relative;
+    height: 104vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(./Img/fondo.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
 
 }
 
@@ -17,12 +29,13 @@ h1 {
 /* Navegación */
 
 nav {
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .letra1 {
+    float: right;
     position: relative;
-    margin-left: 100px;
+    margin-left: 2.25em;
     color: rgb(197, 118, 197);
     font-family: xd;
 }
@@ -35,17 +48,18 @@ nav {
 
 .titulo {
     font-family: xd;
-    font-size: 45px;
+    font-size: 2.8125rem;
     position: relative;
-    margin-left: 490px;
-    top: -10px;
+    margin-left: 30.625rem;
+    top: -0.625rem;
 }
 
 .fondo2{
     position: relative;
-    margin-left: 280px;
-    height: 430px;
-    top: -50px;
+    margin-left: 19.81em;
+    height: 30.875em;
+    top: -3.125em;
+    width: 550px;
 
 }
 
@@ -77,8 +91,8 @@ nav ul li {
 nav ul li a {
     color: #fff;
     position: relative;
-    margin: 0 10px;
-    padding: 10px 20px;
+    margin: 0 0.625em;
+    padding: 0.625em 1.25em;
     text-decoration: none;
 }
 
@@ -86,16 +100,16 @@ nav ul li a {
 
 main {
     position: relative;
-    margin: 20px;
+    margin: 1.25em;
     border-radius: 50px;
-    top: 50px;
-    height: 500px;
+    top: 3.125em;
+    height: 33.25em;
 }
 
 
 .app-info {
     background-color: #fff;
-    padding: 20px;
+    padding: 1.25em;
     border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -108,8 +122,21 @@ main {
     position: relative;
     color: rgb(197, 118, 197);
     font-family: xd;
-    margin-left: 375px;
-    font-size: 20px;
-    top: -40px;
+    margin-left: 23.4375em;
+    font-size: 1em;
+    top: -2.5em;
     
 }   
+
+@media (max-width: 1200px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 14px;
+    }
+
+}
