@@ -1,4 +1,4 @@
-* {
+*{
     list-style: none;
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ h1 {
     margin: 0;
 }
 
-/* Navegación */
+
 
 nav {
     padding: 0.625em;
@@ -45,23 +45,6 @@ nav {
     src: url(./fuentes/reproduction-Medium.ttf);
 }
 
-
-.titulo {
-    font-family: xd;
-    font-size: 2.8125rem;
-    position: relative;
-    margin-left: 30.625rem;
-    top: -0.625rem;
-}
-
-.fondo2 {
-    position: relative;
-    margin-left: 19.81em;
-    height: 30.875em;
-    top: -3.125em;
-    width: 550px;
-
-}
 
 .letra1:hover {
     background-color: #8d599b;
@@ -125,25 +108,24 @@ main {
     margin-left: 23.4375em;
     font-size: 1em;
     top: -2.5em;
+    
+}   
 
+@media (max-width: 1200px){
+    body{
+        font-size: 14px;
+    }
 }
 
-@media (max-width: 576px) {
-    body {
+@media (max-width: 576px){
+    body{
         font-size: 14px;
-
-        .fondo2 {
-            position: relative;
-            width: 270px;
-            height: 280px;
-            left: -250px;
-            top: -80px;
-        }
-
-        .app-info p {
-            position: relative;
-            font-size: 10px;
-            left: -130px;
-            top: -10px;
-        }
+        height: 145vh;
     }
+
+    .fondo2{
+        margin-left: 19.81em;
+
+    }
+
+}
