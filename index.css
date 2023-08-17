@@ -85,7 +85,7 @@ nav ul {
 }
 
 nav ul li {
-  
+    display: inline-block;
 }
 
 nav ul li a {
@@ -102,8 +102,8 @@ main {
     position: relative;
     margin: 1.25em;
     border-radius: 50px;
-    top: 3.125em;
-    height: 33.25em;
+    top: 1.825em;
+    height: 35.25em;
 }
 
 
@@ -128,22 +128,52 @@ main {
 
 }
 
+.logo{
+    position: relative;
+    top: -500px;
+    right: 750px;
+    height: 150px;
+
+}
+
 @media (max-width: 576px) {
     body {
         font-size: 14px;
-
-        .fondo2 {
-            position: relative;
-            width: 270px;
-            height: 280px;
-            left: -250px;
-            top: -80px;
-        }
-
-        .app-info p {
-            position: relative;
-            font-size: 10px;
-            left: -130px;
-            top: -10px;
-        }
+        background-size: 100% 100%;
+        background-attachment: fixed;
     }
+
+    main{
+        position: relative;
+        height: 500px;
+        top: 150px;
+        width: 545px;
+    }
+
+    .fondo2 {
+        position: relative;
+        width: 270px;
+        height: 280px;
+        left: -155px;
+        top: -80px;
+    }
+
+    .app-info p {
+        position: relative;
+        font-size: 10px;
+        left: -110px;
+        top: -30px;
+    }
+
+    .titulo {
+        position: relative;
+        right: 310px;
+        font-size: 30px;
+        top: -25px;
+
+    }
+
+    .letra1{
+        font-size: 15px;
+    }
+}
