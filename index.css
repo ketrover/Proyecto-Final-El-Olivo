@@ -35,7 +35,7 @@ nav {
 .letra1 {
     float: right;
     position: relative;
-    margin-left: 2.25em;
+    margin-left: 1.25em;
     color: rgb(197, 118, 197);
     font-family: xd;
 }
@@ -85,7 +85,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+  
 }
 
 nav ul li a {
