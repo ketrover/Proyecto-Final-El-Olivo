@@ -96,8 +96,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Contenido principal */
-
 main {
     position: relative;
     margin: 1.25em;
@@ -136,7 +134,7 @@ main {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1200px) {
     body {
         font-size: 14px;
         background-size: 100% 100%;
