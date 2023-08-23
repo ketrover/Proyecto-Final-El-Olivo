@@ -1,0 +1,264 @@
+** {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    position: relative;
+    height: 104vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    font-size: 16px;
+
+}
+
+nav {
+    padding: 0.625em;
+}
+
+.letra1 {
+    float: right;
+    position: relative;
+    margin-left: 2.25em;
+    color: rgb(197, 118, 197);
+    font-family: xd;
+}
+
+@font-face {
+    font-family: xd;
+    src: url(./fuentes/reproduction-Medium.ttf);
+}
+
+
+.letra1:hover {
+    background-color: #8d599b;
+    border-radius: 15px;
+    color: #f0f0f0;
+    transition-property: background, color;
+    transition-duration: 0.5s;
+}
+
+.letra1:active {
+    color: rgb(252, 209, 248);
+    border-radius: 15px;
+    background-color: rgb(199, 85, 189);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    position: relative;
+    margin: 0 0.625em;
+    padding: 0.625em 1.25em;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: xd;
+    src: url(./fuentes/reproduction-Medium.ttf);
+}
+
+
+
+.fondo2 {
+    position: relative;
+    margin-left: 19.81em;
+    height: 30.875em;
+    top: -3.125em;
+    width: 550px;
+
+}
+
+.letra1:hover {
+    background-color: #8d599b;
+    border-radius: 15px;
+    color: #f0f0f0;
+    transition-property: background, color;
+    transition-duration: 0.5s;
+}
+
+.letra1:active {
+    color: rgb(252, 209, 248);
+    border-radius: 15px;
+    background-color: rgb(199, 85, 189);
+}
+
+
+
+/* Contenido principal */
+
+main {
+    position: relative;
+    margin: 1.25em;
+    border-radius: 3.125rem;
+    top: 1.825em;
+    height: 35.25em;
+}
+
+
+.app-info {
+    background-color: #ffffff;
+    padding: 1.25em;
+    border-radius: 3.125rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+@media (max-width: 36rem) {
+    body {
+        font-size: 0.875rem;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+
+    main {
+        position: relative;
+        height: 31.25rem;
+        top: 9.375rem;
+        width: 34.0625rem;
+    }
+
+
+
+
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+}
+
+.nosotros .card * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mifuente;
+
+
+}
+
+.nosotros .carta body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.nosotros .card {
+    position: relative;
+    margin: 1.875rem;
+    width: 18.75rem;
+    height: 21.875rem;
+    top: 9.375rem;
+    left: 18.75rem;
+}
+
+.nosotros .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.625rem;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.nosotros .card .front {
+    transform: perspective(37.5rem) rotateY(0deg);
+    box-shadow: 0 0.3125rem 0.625rem rgb(0, 0, 0);
+}
+
+.nosotros .card .front img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nosotros .card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.125rem;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#8d599b, #9f21a6);
+    text-align: center;
+    font-family: mifuente;
+}
+
+
+.nosotros .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: linear-gradient(#c81ed1, #c476da, #dd82f6);
+    padding: 0.9375rem;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 0.3125rem 0.625rem #000000;
+    font-family: mifuente;
+
+}
+
+.nosotros .card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    font-family: mifuente;
+}
+
+.nosotros .card .back .link a {
+    color: #f3f3f3;
+}
+
+.nosotros .card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.nosotros .card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.primero {
+    position: relative;
+    top: -0.625rem;
+    left: -18.125rem;
+}
+
+.segund0 {
+    position: relative;
+    top: -26.25rem;
+    left: 10rem;
+}
+
+.tercero {
+    position: relative;
+    top: -51.875rem;
+    left: 37.5rem;
+}
