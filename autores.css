@@ -8,8 +8,9 @@
 
 body {
     position: relative;
-    height: 104vh;
+    height: 200vh;
     font-family: Arial, sans-serif;
+  
     margin: 0;
     padding: 0;
     background-image: url(./Img/fondo.jpg);
@@ -141,8 +142,6 @@ main {
     }
 
 
-
-
 }
 
 .nosotros {
@@ -154,7 +153,7 @@ main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: mifuente;
+    font-family: xd;
 
 
 }
@@ -208,7 +207,7 @@ main {
     color: rgb(255, 255, 255);
     background: linear-gradient(#8d599b, #9f21a6);
     text-align: center;
-    font-family: mifuente;
+    font-family: xd;
 }
 
 
@@ -222,7 +221,7 @@ main {
     justify-content: space-between;
     text-align: center;
     box-shadow: 0 0.3125rem 0.625rem #000000;
-    font-family: mifuente;
+    font-family: xd;
 
 }
 
@@ -230,7 +229,7 @@ main {
     border-top: solid 1px #f3f3f3;
     height: 3.125rem;
     line-height: 3.125rem;
-    font-family: mifuente;
+    font-family: xd;
 }
 
 .nosotros .card .back .link a {
@@ -247,18 +246,24 @@ main {
 
 .primero {
     position: relative;
-    top: -0.625rem;
-    left: -18.125rem;
+    top: -10px;
+    left: -240px;
 }
 
 .segund0 {
     position: relative;
-    top: -26.25rem;
-    left: 10rem;
+    top: -420px;
+    left: 124px;
 }
 
 .tercero {
     position: relative;
-    top: -51.875rem;
-    left: 37.5rem;
+    top: -830px;
+    left: 485px;
+}
+
+.cuarto{
+    position: relative;
+    top: -868px;
+    left: 125px;
 }

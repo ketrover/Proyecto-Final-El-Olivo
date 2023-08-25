@@ -1,13 +1,17 @@
 body {
-  /* background-color: #76a9e0; */
-  background-image: url("../Img/Fondo2.avif");
-  background-color: blue;
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
+  position: relative;
+  height: 104vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/Img/fondo.jpg);
+  background-color: blueviolet;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-size: cover;
+  font-size: 16px;
+
 }
 
 .center {
@@ -15,10 +19,6 @@ body {
   margin-top: 200px;
 }
 
-#header {
-  font-family: "Righteous", sans-serif;
-  font-size: 3rem;
-}
 
 h2 {
   font-family: "Righteous", sans-serif;
@@ -29,110 +29,10 @@ h2 {
   visibility: hidden;
 }
 
-
-h1 {
-  margin: 0;
+.btn-btn-primary {
+  box-shadow: 0 0 20px #8d599b;
 }
 
-
-nav {
-  padding: 0.625em;
-}
-
-.letra1 {
-  float: right;
-  position: relative;
-  margin-left: 2.25em;
-  color: rgb(197, 118, 197);
-  font-family: xd;
-}
-
-@font-face {
-  font-family: xd;
-  src: url(./fuentes/reproduction-Medium.ttf);
-}
-
-
-.letra1:hover {
-  background-color: #8d599b;
-  border-radius: 15px;
-  color: #f0f0f0;
-  transition-property: background, color;
-  transition-duration: 0.5s;
-}
-
-.letra1:active {
-  color: rgb(252, 209, 248);
-  border-radius: 15px;
-  background-color: rgb(199, 85, 189);
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: #fff;
-  position: relative;
-  margin: 0 0.625em;
-  padding: 0.625em 1.25em;
-  text-decoration: none;
-}
-
-/* Contenido principal */
-
-main {
-  position: relative;
-  margin: 1.25em;
-  border-radius: 50px;
-  top: 3.125em;
-  height: 33.25em;
-}
-
-
-.app-info {
-  background-color: #fff;
-  padding: 1.25em;
-  border-radius: 50px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.app-info h3 {
-  color: rgb(197, 118, 197);
-}
-
-.app-info p {
-  position: relative;
-  color: rgb(197, 118, 197);
-  font-family: xd;
-  margin-left: 23.4375em;
-  font-size: 1em;
-  top: -2.5em;
-  
-}   
-
-@media (max-width: 1200px){
-  body{
-      font-size: 14px;
-  }
-}
-
-@media (max-width: 576px){
-  body{
-      font-size: 14px;
-      height: 145vh;
-  }
-
-  .fondo2{
-      margin-left: 19.81em;
-
-  }
-
+#search{
+  box-shadow: 0 0 20px  #8d599b;
 }
